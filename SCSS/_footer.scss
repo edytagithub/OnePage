@@ -1,0 +1,26 @@
+footer {
+    & h1 {
+        margin-bottom: 25px;
+    color: #666;
+    font-size: 32px;
+    font-style: italic;
+    }
+    & p {
+        margin-bottom: 30px;
+        color: #999;
+        font-style: italic;
+    }
+    & hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 0;
+        border-top: 1px solid #eee;
+    }
+    .copy {
+        margin-bottom: 30px;
+        margin-top: 10px;
+        color: #666;
+        font-size: 12px;
+    }
+}   
+

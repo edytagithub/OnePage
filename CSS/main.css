@@ -1,0 +1,180 @@
+.section {
+  margin-bottom: 60px; }
+
+h2 {
+  margin: 20px 0;
+  padding: 0 20px;
+  font-size: 20px;
+  font-weight: 700; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.text__green {
+  color: #008000; }
+
+.text__blue {
+  color: #1686C1; }
+
+.text__grey {
+  color: #808080; }
+
+.btn {
+  width: 150px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+.btn__green {
+  background-color: #008000; }
+
+.btn__blue {
+  background-color: #1686C1; }
+
+.btn__grey {
+  background-color: #808080; }
+
+.btn__transparent {
+  background-color: transparent;
+  border: 1px solid #383E4C;
+  color: #383E4C; }
+
+.box__bg {
+  background: #F2F2F2;
+  padding-bottom: 40px; }
+
+.bg__fixed {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.navbar {
+  width: 100%; }
+  .navbar .navbar-nav .nav-item {
+    padding: 10px; }
+    .navbar .navbar-nav .nav-item .nav-link {
+      border: 1px solid #646d7c;
+      padding: 15px 25px;
+      color: #fff;
+      font-size: 20px;
+      text-decoration: none;
+      text-transform: capitalize;
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+
+#nav--bg__color {
+  background-color: #383E4C !important; }
+
+header {
+  height: 650px;
+  padding: 150px 0;
+  background-image: url("../images/header-photo.jpeg");
+  background-position: bottom; }
+  header .header--text {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase; }
+    header .header--text h1 {
+      font-size: 70px;
+      text-shadow: 2px 2px #000; }
+    header .header--text h4 {
+      font-size: 25px;
+      text-shadow: 1px 1px #333; }
+
+.features--box--text {
+  padding: 30px; }
+  .features--box--text h2 {
+    padding: 0;
+    color: #383E4C; }
+
+.blog--outer .blog--box h2 {
+  color: #383E4C; }
+.blog--outer .blog--box p {
+  padding: 27px;
+  text-align: left; }
+
+.services {
+  height: 350px;
+  padding: 100px 0;
+  background-image: url("../images/services-photo3.jpg");
+  background-position: initial; }
+  .services--text {
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: capitalize; }
+    .services--text h1 {
+      font-size: 36px;
+      text-shadow: 2px 2px #aaa; }
+    .services--text h4 {
+      font-size: 18px; }
+
+.about--box__text h2 {
+  text-align: left; }
+.about--box__text p {
+  margin-top: 15px;
+  padding: 0 20px 35px;
+  text-align: left;
+  font-size: 14px; }
+.about--box__btn {
+  align-self: center; }
+
+.contact {
+  height: 600px;
+  padding: 100px 0;
+  background-image: url("../images/contact-photo.jpeg");
+  background-position: initial; }
+  .contact .container {
+    max-width: 750px; }
+    .contact .container .contact--text {
+      color: #fff;
+      text-transform: capitalize;
+      margin-bottom: 20px; }
+      .contact .container .contact--text h1 {
+        margin-bottom: 30px;
+        font-size: 36px;
+        text-shadow: 2px 2px #333; }
+      .contact .container .contact--text p {
+        margin-bottom: 20px;
+        padding: 20px 15px;
+        background: rgba(242, 242, 242, 0.4) none repeat scroll 0 0;
+        border-radius: 5px;
+        color: #000;
+        font-size: 16px; }
+    .contact .container .contact--form .form-control {
+      margin-bottom: 24px;
+      border: none;
+      background: rgba(242, 242, 242, 0.4); }
+    .contact .container .contact--form--box--left {
+      padding-left: 0; }
+    .contact .container .contact--form--box--right {
+      padding-right: 0; }
+      .contact .container .contact--form--box--right button {
+        margin-top: 20px; }
+
+footer h1 {
+  margin-bottom: 25px;
+  color: #666;
+  font-size: 32px;
+  font-style: italic; }
+footer p {
+  margin-bottom: 30px;
+  color: #999;
+  font-style: italic; }
+footer hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee; }
+footer .copy {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: #666;
+  font-size: 12px; }
+
+/*# sourceMappingURL=main.css.map */

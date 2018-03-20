@@ -1,0 +1,8 @@
+.features--box--text {
+    padding: 30px;
+
+    & h2 {
+        padding: 0;
+        color: $primary-color;
+    }
+}

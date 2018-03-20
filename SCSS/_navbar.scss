@@ -1,0 +1,26 @@
+.navbar {
+    width: 100%;
+
+    .navbar-nav {
+        
+        .nav-item {
+            padding: 10px;
+
+            .nav-link {
+                border: 1px solid #646d7c;
+                padding: 15px 25px;
+                color: #fff;
+                font-size: 20px;
+                text-decoration: none;
+                text-transform: capitalize;
+                -webkit-transition: all 0.3s ease;
+                transition: all 0.3s ease;
+            }
+        }
+
+    }
+}
+
+#nav--bg__color {
+    background-color:$primary-color!important;
+}

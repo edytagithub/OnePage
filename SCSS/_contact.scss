@@ -1,0 +1,50 @@
+.contact {
+    height:600px;
+    padding: 100px 0;
+    background-image: url("../images/contact-photo.jpeg");
+    background-position: initial;
+    & .container {
+        max-width: 750px;
+
+        .contact--text {
+            color: #fff;
+            text-transform: capitalize;
+            margin-bottom: 20px;
+
+            & h1 {
+                margin-bottom: 30px;
+                font-size: 36px;
+                text-shadow: 2px 2px #333;
+            }
+
+            & p {
+                margin-bottom: 20px;
+                padding: 20px 15px;   
+                background: $form--background none repeat scroll 0 0;
+                border-radius: 5px;
+                color: #000;
+                font-size: 16px;
+            }
+        }
+
+        .contact--form {
+            & .form-control {
+                margin-bottom: 24px; 
+                border: none;
+                background: $form--background;
+            }
+
+            &--box--left {
+                padding-left: 0;
+            }
+
+            &--box--right {
+                padding-right: 0;
+
+                & button {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}

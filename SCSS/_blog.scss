@@ -1,0 +1,14 @@
+.blog {
+    &--outer {
+        .blog--box {
+            & h2 {
+                color: $primary-color;
+            }
+
+            & p {
+                padding: 27px;
+                text-align: left;
+            }
+        }
+    }
+}

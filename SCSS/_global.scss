@@ -1,0 +1,68 @@
+.section {
+    margin-bottom: 60px;
+}
+
+h2 {
+    margin: 20px 0;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text__green {
+    color: $first--style;
+}
+
+.text__blue {
+    color:$second--style;
+}
+
+.text__grey {
+    color:#808080;
+}
+
+.btn {
+    width: 150px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.btn__green {
+    background-color: $first--style;
+}
+
+.btn__blue {
+    background-color: $second--style;
+}
+
+.btn__grey {
+    background-color: $third--style;
+}
+
+.btn__transparent {
+    background-color: transparent;
+    border: 1px solid $primary-color;
+    color: $primary-color;
+}
+
+.box__bg {
+    background: #F2F2F2;
+    padding-bottom: 40px;
+}
+
+.bg__fixed {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

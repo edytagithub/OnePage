@@ -1,0 +1,21 @@
+.services {
+    height:350px;
+    padding: 100px 0;
+    background-image: url("../images/services-photo3.jpg");
+    background-position: initial;
+
+    &--text {
+        margin-bottom: 20px;
+        color: #fff;
+        text-transform: capitalize;
+
+        & h1 {
+            font-size: 36px;
+            text-shadow: 2px 2px #aaa;
+        }
+
+        & h4 {
+            font-size: 18px;
+        }
+    }
+}
